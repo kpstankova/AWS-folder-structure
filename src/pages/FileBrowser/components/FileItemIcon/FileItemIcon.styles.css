@@ -1,0 +1,11 @@
+.selectedDirectoryFolder,
+.selectedDirectoryFile {
+  color: skyblue;
+}
+
+.folderIconEmpty {
+  margin-left: 1.5rem;
+}
+.fileIcon {
+  margin-left: 1.5rem;
+}

@@ -1,0 +1,30 @@
+.fileBrowser {
+	display: flex;
+	height: 100vh;
+}
+
+.fileTree {
+	flex: 0.3;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #1a1f2b;
+}
+.workingDirectory {
+	flex: 0.7;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.divider {
+	width: 2px;
+	background-color: rgb(91, 87, 87);
+}
+
+.navigationComponent {
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+	background: linear-gradient(to right, #1a1f2b 30%, #ffffff 70%);
+  border-width: 5px;
+  border-bottom-color: black;
+}

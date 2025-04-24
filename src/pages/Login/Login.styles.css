@@ -1,0 +1,41 @@
+.loginPage {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.leftSide {
+	flex: 1;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.rightSide {
+	flex: 1;
+	background-color: #3b8bf4;
+	border-top-left-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginForm {
+	background-color: white;
+	border-radius: 2rem;
+}
+
+@media (max-width: 768px) {
+	.leftSide {
+		display: none;
+	}
+
+	.rightSide {
+		width: 100%;
+		margin-left: 0;
+		border-radius: 0;
+	}
+}

@@ -1,0 +1,33 @@
+.inputContainer {
+  position: relative;
+  margin: 0.5rem 0;
+}
+
+.inputText {
+  width: 100%;
+  padding: 0.5rem 0.625rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.floatingLabel {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.625rem;
+  background: transparent;
+  color: #888;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.inputText:focus + .floatingLabel,
+.floatingLabel.active {
+  top: -0.625rem;
+  left: 0.5rem;
+  font-size: 0.75rem;
+  color: #333;
+}

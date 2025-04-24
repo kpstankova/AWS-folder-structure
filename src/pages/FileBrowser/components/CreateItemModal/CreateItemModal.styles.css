@@ -1,0 +1,14 @@
+.createModalHeader {
+  padding: 2rem;
+}
+
+.createModalContent {
+  padding: 1rem;
+}
+
+.createModalFooter {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
