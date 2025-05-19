@@ -1,1 +1,1 @@
-# LucidLink-Home-Assignment
+# AWS folder structure app
